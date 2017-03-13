@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: DS-NodeRed-01
+  host: DS-NodeRed-01
+  disk_quota: 1024M
+  services:
+  - DS-NodeRed-01-cloudantNoSQLDB
